@@ -1,0 +1,138 @@
+body{
+    background: radial-gradient(circle,gray,black);
+}
+
+.header{
+    background-color: black;
+    width: 1510px;
+    height: 70px;
+}
+
+.inline{
+    display:inline;
+    font-style: italic;
+    position: absolute;
+    left:700px;
+    font-size: 25px;
+    top:-1%;
+}
+
+h4:hover{
+    color:yellow;
+}
+
+div:hover{
+    box-shadow: 30px 45px yellow;
+}
+
+.content{
+    position: absolute;
+    top:75px;
+}
+
+.welcome{
+    font-style: oblique;
+    color:white;
+    font-size: 40.1px;
+    background-color:black;
+    width:1100px;
+    box-shadow: 15px 20px white;
+    margin-left: 200px;
+    height: 120px;
+    /* border-radius: 5px; */
+    transform: skew(18deg);
+}
+
+
+.white{
+    color: white;
+    font-style: italic;
+    padding:150px;
+    margin-top: -210px;
+    letter-spacing: 0.2px;
+    line-height: 2;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.htmldiv{
+    background-color:black; 
+    width:1500px;
+    height: 300px;
+    box-shadow: 15px 30px; 
+    border-radius: 45px;   
+}
+
+.cssdiv{
+    background-color: black;
+    width:1500px;
+    height: 300px;
+    box-shadow: 15px 30px;
+    border-radius: 45px; 
+}
+
+
+.htmlimg{
+    background-color:red;
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    left:1310px;
+    border-radius: 50px;
+}
+
+.htmlimg1{
+    background-color:red;
+    height: 300px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50px;
+}
+
+#cssid{
+    color:white;
+    font-style: italic;
+    padding:10px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.frontimg{
+    background-color:black;
+    width: 1454px;
+	height: 520px;
+	transform: skew(14deg);	
+    border-radius: 45px;
+}
+
+#notes{
+    color:white;
+    padding:90px;
+    font-size: 150px;
+    margin-top: 70px;
+    letter-spacing: 20px;
+}
+
+#name{
+    margin-left: 900px;
+    font-size: 75px;
+}
+
+h3:hover{
+    color:yellow;
+    box-shadow: 15px 20px yellow;
+}
+
+p:hover{
+    color:yellow;
+    font-size: 16.7px;
+}
+
+.footer{
+    background-color: black;
+    width: 1510px;
+    height: 70px;
+}

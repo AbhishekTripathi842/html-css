@@ -1,0 +1,51 @@
+body{
+    background:  radial-gradient(circle,rgb(235, 52, 52),rgb(44, 44, 180),rgb(75, 59, 59));
+}
+
+.footer{
+    background-color: black;
+    width: 1510px;
+    height: 70px;
+}
+
+.header{
+    background-color: rgb(19, 7, 7);
+    width: 1510px;
+    height: 70px;
+    margin-right: 5px;
+}
+
+.inline{
+    display:inline;
+    font-style: italic;
+    position: absolute;
+    left:700px;
+    font-size: 25px;
+    top:-1%;
+    color:white;
+}
+
+h4:hover{
+    color:yellow;
+}
+
+.white-color{
+
+    color:white;
+    font-style: italic;
+    font-size: 30px;
+
+}
+
+.black-color{
+
+    color:black;
+    font-style: italic;
+
+}
+
+li{
+    list-style-type: none;
+    font-size:20px;
+    line-height: 2;
+}
