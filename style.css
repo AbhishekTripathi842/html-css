@@ -44,6 +44,8 @@ div:hover{
     height: 120px;
     /* border-radius: 5px; */
     transform: skew(18deg);
+    padding-top: -100px;
+    margin-bottom: -31px;
 }
 
 
