@@ -37,15 +37,25 @@ body{
     color:white;
     font-style: italic;
     font-size: 30px;
-
 }
+
+.white-color1{
+
+    color:white;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
 
 .black-color{
-
     color:black;
     font-style: italic;
-
 }
+
+
 
 li{
     list-style-type: none;
@@ -56,4 +66,29 @@ li{
 a{
     text-decoration: none;
     color:white;
+}
+
+.sidebar{
+    background-color: black;
+    height: 480px;
+}
+
+.sidebar1{
+    height: 500px;
+    position: absolute;
+    left: 300px;
+    top: 480px;
+}
+
+.backbutton{
+    color:black;
+    font-style: italic;
+    position: absolute;
+    margin-left: 1428px;
+    margin-top: -60px;
+}
+
+.notes{
+    background-color: darkslategray;
+    height: 70px;
 }
