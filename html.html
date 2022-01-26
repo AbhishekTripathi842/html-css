@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+
+
+
     <link rel="stylesheet" href="html-css.css" />
     <title>E-learning</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -46,28 +55,28 @@
 <hr>
 <div class="sidebar">
     <ul>
-    <li><a href="#heading">heading</a></li>
-    <li><a href="#background">background</a></li>
-    <li><a href="#font-icon">font-icon</a></li>
-    <li><a href="#alignment">Alignment</a></li>
-    <li><a href="#blank-space">Blank-space</a></li>
-    <li><a href="#paragraph-alignment">Paragraph-alignment</a></li>
-    <li><a href="#input-tags">Input-tags</a></li>
-    <li><a href="#dropdown-list">Dropdown-list</a></li>
-    <li><a href="#checkbox-radio">Checkbox-Vs-Radio</a></li>
-    <li><a href="#fieldset">fieldset-legend</a></li>
-    <li><a href="#get">GET-method</a></li>
-    <li><a href="#post">POST-method</a></li>
+    <li><a href="#heading"><span>heading</span></a></li>
+    <li><a href="#background"><span>background</span></a></li>
+    <li><a href="#font-icon"><span>font-icon</span></a></li>
+    <li><a href="#alignment"><span>Alignment</span></a></li>
+    <li><a href="#blank-space"><span>Blank-space</span></a></li>
+    <li><a href="#paragraph-alignment"><span>Paragraph-alignment</span></a></li>
+    <li><a href="#input-tags"><span>Input-tags</span></a></li>
+    <li><a href="#dropdown-list"><span>Dropdown-list</span></a></li>
+    <li><a href="#checkbox-radio"><span>Checkbox-Vs-Radio</span></a></li>
+    <li><a href="#fieldset"><span>fieldset-legend</span></a></li>
+    <li><a href="#get"><span>GET-method</span></a></li>
+    <li><a href="#post"><span>POST-method</span></a></li>
     </ul>
 </div>
 <div class="sidebar1">
     <ul>
-    <li><a href="#ol">Orderd-list</a></li>
-    <li><a href="#ul">Unorderd-list</a></li>
-    <li><a href="#dl">Defination-list</a></li>
-    <li><a href="#Presentation-tags">Presentation-tags</a></li>
-    <li><a href="#html-Table">html-Table</a></li>
-    <li><a href="#colspan-and-rowspan">colspan-and-rowspan</a></li>
+    <li><a href="#ol"><span>Orderd-list</span></a></li>
+    <li><a href="#ul"><span>Unorderd-list</span></a></li>
+    <li><a href="#dl"><span>Defination-list</span></a></li>
+    <li><a href="#Presentation-tags"><span>Presentation-tags</span></a></li>
+    <li><a href="#html-Table"><span>html-Table</span></a></li>
+    <li><a href="#colspan-and-rowspan"><span>colspan-and-rowspan</span></a></li>
     </ul>
 </div>
   
@@ -79,14 +88,36 @@
    
 
     <h1 id="heading" class="white-color">html types of Heading tags:-</h1><a class="backbutton" href="#welcome">back</a>
+    <br>
     <center>
         <ul class="white-color">
-                < h1 > heading 1 < /h1 ><br>
-                < h2 > heading 2< /h2 > <br>
-                < h3 > heading 3 < /h3 ><br>
-                < h4 > heading 4< /h4 > <br>
-                < h5 > heading 5 < /h5 ><br>
-                < h6 > heading 6< /h6 > <br>  
+
+            <h5>Search engines use the headings to index the structure and content of your web pages.
+Users often skim a page by its headings. It is important to use headings to show the document structure.
+< h1 > headings should be used for main headings, followed by < h2 > headings, then the less important < h3 >, and so on.</h5>
+    <br>
+                <container>
+                    <div class="row">
+                    <ul class="nav nav-pills flex-column col-2">
+                        <li class="nav-item">
+                            <a href="#example" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                        </li>
+                    </ul>
+                
+                    <div class="tab-content col">
+                        <div class="tab-pane fade show" id="example">
+
+                            < h1 > heading 1 < /h1 ><br>
+                            < h2 > heading 2< /h2 > <br>
+                            < h3 > heading 3 < /h3 ><br>
+                            < h4 > heading 4< /h4 > <br>
+                            < h5 > heading 5 < /h5 ><br>
+                            < h6 > heading 6< /h6 > <br> 
+
+                        </div>
+                    </div>
+                </container>
+                
         </ul>
         </center>
     <hr>
@@ -96,8 +127,31 @@
 <h1 id="background" class="white-color">background-color and background image in html :-</h1><a class="backbutton" href="#welcome">back</a>
 <center>
 <ul class="white-color">
-    <li>background = "img-path" </li>
-   <li> bg-color = "red"</li>
+     <br>
+    <h5>The background-color property is used in CSS and some special HTML tags to create 
+    a background color of a particular object. The overall effect without any borders or curved
+     edges will be like highlighted text. You can customize the background-color
+     property with the border-radius and -moz-border-radius properties.</h5>
+<br>
+
+   <container>
+    <div class="row">
+    <ul class="nav nav-pills flex-column col-2">
+        <li class="nav-item">
+            <a href="#bc" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+        </li>
+    </ul>
+
+    <div class="tab-content col">
+        <div class="tab-pane fade show" id="bc">
+
+            <li>background = "img-path" </li>
+            <li> bg-color = "red"</li> 
+
+        </div>
+    </div>
+</container>   
+
 </ul>
 </center>
 <hr> 
@@ -105,9 +159,30 @@
 <h1 id="font-icon" class="white-color">font-icon :-</h1><a class="backbutton" href="#welcome">back</a>
 <center>
     <ul class="white-color">
-        <li>& copy ;</li>
-       <li> & reg ;</li>
-      <li> & # 8482 ; </li>
+        <br>
+       <h5>
+        Font Awesome is a font and icon toolkit based on CSS and Less. As of 2020,
+         Font Awesome was used by 38% of sites that use third-party font 
+        scripts, placing Font Awesome in second place after Google Fonts.
+       </h5>
+        <br>
+
+      <container>
+        <div class="row">
+        <ul class="nav nav-pills flex-column col-2">
+            <li class="nav-item">
+                <a href="#fc" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+            </li>
+        </ul>
+    
+        <div class="tab-content col">
+            <div class="tab-pane fade show" id="fc">
+                <li>& copy ;</li>
+                <li> & reg ;</li>
+               <li> & # 8482 ; </li>
+            </div>
+        </div>
+    </container>
     </ul>
     </center>
 <hr>
@@ -115,9 +190,32 @@
 <h1 id="alignment" class="white-color">html - alignment :-</h1><a class="backbutton" href="#welcome">back</a>
 <center>
     <ul class="white-color">
-        <li>align="left"</li>
-       <li> align="center"</li>
-      <li> align="right" </li>
+        <br>
+       <h5>
+        alignment is a type of page styling, the best way to align HTML content on the page 
+        is with the CSS text-align property.
+         text-align sets the horizontal alignment of content inside a block element
+       </h5>
+       <br>
+
+      <container>
+          
+        <div class="row">
+        <ul class="nav nav-pills flex-column col-2">
+            <li class="nav-item">
+                <a href="#ha" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+            </li>
+        </ul>
+    
+        <div class="tab-content col">
+            <div class="tab-pane fade show" id="ha">
+                <li>align="left"</li>
+                <li> align="center"</li>
+                <li> align="right" </li>
+            </div>
+        </div>
+    </container>      
+
     </ul>
     </center>
 <hr>
@@ -126,7 +224,29 @@
 <h1 id="blank-space" class="white-color">blank spance in html :-</h1><a class="backbutton" href="#welcome">back</a>
 <center>
     <ul class="white-color">
-        <li>& nbsp ;</li>
+        <br>
+        <h5>
+            Text-processing software typically assumes that an automatic line break may be 
+            inserted anywhere a space character occurs; a non-breaking space 
+            prevents this from happening (provided the software recognizes the character). 
+        </h5>
+        <br>
+        <container>
+            <div class="row">
+            <ul class="nav nav-pills flex-column col-2">
+                <li class="nav-item">
+                    <a href="#bs" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                </li>
+            </ul>
+        
+            <div class="tab-content col">
+                <div class="tab-pane fade show" id="bs">
+                    <li>& nbsp ;</li>
+                </div>
+            </div>
+        </container>              
+
+        
     </ul>
     </center>
 <hr>
@@ -135,9 +255,28 @@
 <h1 id="paragraph-alignment" class="white-color">Paragraph alignment in html :-</h1><a class="backbutton" href="#welcome">back</a>
 <center>
     <ul class="white-color">
-        <li>align = "justify"</li>
-       <li> align = "center"</li>
-      <li> align = "right" </li>
+       <br>
+       <h5>If we want to move a text at center position using the Html tag which is to be displayed 
+           on a web page, we have to follow the steps which are given below.</h5>
+       <br>
+
+      <container>
+        <div class="row">
+        <ul class="nav nav-pills flex-column col-2">
+            <li class="nav-item">
+                <a href="#pat" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+            </li>
+        </ul>
+    
+        <div class="tab-content col">
+            <div class="tab-pane fade show" id="pat">
+                <li>align = "justify"</li>
+                <li> align = "center"</li>
+               <li> align = "right" </li>
+            </div>
+        </div>
+    </container>     
+
     </ul>
     </center>
 <hr>
@@ -146,26 +285,50 @@
 <h1 id="input-tags" class="white-color">Input Tags :-</h1><a class="backbutton" href="#welcome">back</a>
 <center>
     <ul class="white-color">
-        <li>input type="text"</li>
-       <li> input type="password"</li>
-      <li> input type="button" </li>
-      <li>input type="checkbox"</li>
-      <li>input type="date"</li>
-      <li>input type="datetime-local"</li>
-      <li>input type="email"</li>
-      <li>input type="file"</li>
-      <li>input type="hidden"</li>
-      <li>input type="image"</li>
-      <li>input type="month"</li>
-      <li>input type="url"</li>
-      <li>input type="week"</li>
-      <li>input type="time"</li>
-      <li>input type="tel"</li>
-      <li>input type="search"</li>
-      <li>input type="reset"</li>
-      <li>input type="range"</li>
-      <li>input type="radio"</li>
-      <li>input type="number"</li>
+     <br>
+     <h5>
+        In HTML, the input field can be specified using where a user can enter data.
+         The input tag is used within < form> element to declare input controls that allow users
+          to input data. An input field can be of various types depending upon the attribute type. 
+          The Input tag is an empty element which only contains attributes. 
+        For defining labels for the input element, < label> can be used.
+     </h5>
+     <br>
+
+
+      <container>
+        <div class="row">
+        <ul class="nav nav-pills flex-column col-2">
+            <li class="nav-item">
+                <a href="#its" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+            </li>
+        </ul>
+    
+        <div class="tab-content col">
+            <div class="tab-pane fade show" id="its">
+                <li>input type="text"</li>
+                <li> input type="password"</li>
+               <li> input type="button" </li>
+               <li>input type="checkbox"</li>
+               <li>input type="date"</li>
+               <li>input type="datetime-local"</li>
+               <li>input type="email"</li>
+               <li>input type="file"</li>
+               <li>input type="hidden"</li>
+               <li>input type="image"</li>
+               <li>input type="month"</li>
+               <li>input type="url"</li>
+               <li>input type="week"</li>
+               <li>input type="time"</li>
+               <li>input type="tel"</li>
+               <li>input type="search"</li>
+               <li>input type="reset"</li>
+               <li>input type="range"</li>
+               <li>input type="radio"</li>
+               <li>input type="number"</li>
+            </div>
+        </div>
+    </container>     
     </ul>
     </center>
 <hr>
@@ -174,10 +337,39 @@
     <h1 id="dropdown-list" class="white-color">Dropdown-list :-</h1><a class="backbutton" href="#welcome">back</a>
 <center>
     <ul class="white-color">
-        <li> < select ></li>
-       <li>< option > anything < /option ></li>
-       <li>< option > anything < /option ></li>
-        <li> < /select > </li>
+       <br>
+       <h5>
+
+        A drop-down list (abbreviated drop-down, or DDL;[1] also known as a drop-down menu,
+         drop menu, pull-down list, picklist) is a graphical control element, similar to a list box, 
+         that allows the user to choose one value from a list. When a drop-down list is inactive, 
+         it displays a single value. When activated, it displays (drops down) a list of values, 
+         from which the user may select one. When the user selects a new value,
+         the control reverts to its inactive state, displaying the selected value.
+
+       </h5>
+       <br>
+
+
+
+        <container>
+            <div class="row">
+            <ul class="nav nav-pills flex-column col-2">
+                <li class="nav-item">
+                    <a href="#dd" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                </li>
+            </ul>
+        
+            <div class="tab-content col">
+                <div class="tab-pane fade show" id="dd">
+                    <li> < select ></li>
+                 <li>< option > anything < /option ></li>
+                 <li>< option > anything < /option ></li>
+                 <li> < /select > </li>
+
+                </div>
+            </div>
+        </container>     
     </ul>
     </center>
 <hr>
@@ -186,18 +378,39 @@
 <h1 id="checkbox-radio" class="white-color">Difference between checkbox and radio :-</h1><a class="backbutton" href="#welcome">back</a>
 <center>
     <ul class="white-color">
-       <li> < input type="checkbox" name = "chess" >chess</li>
-       <li> < input type="checkbox" name = "ludo" >ludo </li>
-      <li>  < input type="checkbox" name = "match" >match </li>
-       
-    </ul>
+       <br>
+       <h5>
+        A checkbox (check box, tickbox, tick box) is a Graphical widget that permits the user
+         to make a binary choice, i.e. a choice between one of two possible mutually exclusive 
+         options. For example, the user 
+        may have to answer 'yes' (checked) or 'no' (not checked) on a simple yes/no question.
+       </h5>
+       <br>
 
-    <ul class="white-color">
-        <li> < input type="radio" name = "opt" >chess </li>
-          <li> < input type="radio" name = "opt" >ludo </li>
-           <li> < input type="radio" name = "opt" >match </li>
+        <container>
+            <div class="row">
+            <ul class="nav nav-pills flex-column col-2">
+                <li class="nav-item">
+                    <a href="#cr" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                </li>
+            </ul>
         
-     </ul>
+            <div class="tab-content col">
+                <div class="tab-pane fade show" id="cr">
+                    <li> < input type="checkbox" name = "chess" >chess</li>
+                    <li> < input type="checkbox" name = "ludo" >ludo </li>
+                   <li>  < input type="checkbox" name = "match" >match </li>
+                   <li> < input type="radio" name = "opt" >chess </li>
+                   <li> < input type="radio" name = "opt" >ludo </li>
+                    <li> < input type="radio" name = "opt" >match </li>
+
+                </div>
+            </div>
+        </container>     
+
+
+        
+    </ul>
     </center>
 <hr>
 
@@ -205,30 +418,14 @@
 <h1 id="fieldset" class="white-color">fieldset and legend :-</h1><a class="backbutton" href="#welcome">back</a>
 <center>
     <ul class="white-color">
-    < fieldset ><br>
-        < legend >-:Personal infromation< /legend ><br>
-        < label >Firstname< /label ><br>
-        < input type="text" ><br>
-        < br >< br ><br>
-         < label >Lastname< /label ><br>
-         < input type="text" ><br>
-         < /fieldset ><br>
-         
-         < fieldset ><br>
-         < legend align="center">-:Anything< /legend ><br>
-        < input type="checkbox" name = "chess" >chess<br>
-        < input type="checkbox" name = "ludo" >ludo<br>
-        < input type="checkbox" name = "match" >match<br>
-        < input type="checkbox" name = "ch" >ch<br>
-        < /fieldset ><br>
-        < fieldset ><br>
-          < h1 >Radiobutton< /h1 ><br>
-          < legend  align="right">-:>-:Personal infromation< /legend ><br>
-        < input type="radio" name = "opt" >chess<br>
-        < input type="radio" name = "opt" >ludo<br>
-        < input type="radio" name = "opt" >match<br>
-        < input type="radio" name = "opt" >ch<br>
-        < /fieldset ><br>
+   <br>
+   <h5>
+    The <legend> element represents a caption for the rest of the contents of the legend
+         element's parent fieldset element
+   </h5>
+   <br>
+
+
     </ul>
     <br>
     <hr>
@@ -259,6 +456,47 @@
             <input type="radio" name = "opt">ch
             
             </fieldset>
+
+
+            <container>
+                <div class="row">
+                <ul class="nav nav-pills flex-column col-2">
+                    <li class="nav-item">
+                        <a href="#lf" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                    </li>
+                </ul>
+            
+                <div class="tab-content col">
+                    <div class="tab-pane fade show" id="lf">
+                        <hr><br><br>
+                        < fieldset ><br>
+                        < legend >-:Personal infromation< /legend ><br>
+                        < label >Firstname< /label ><br>
+                        < input type="text" ><br>
+                        < br >< br ><br>
+                         < label >Lastname< /label ><br>
+                         < input type="text" ><br>
+                         < /fieldset ><br>
+                         
+                         < fieldset ><br>
+                         < legend align="center">-:Anything< /legend ><br>
+                        < input type="checkbox" name = "chess" >chess<br>
+                        < input type="checkbox" name = "ludo" >ludo<br>
+                        < input type="checkbox" name = "match" >match<br>
+                        < input type="checkbox" name = "ch" >ch<br>
+                        < /fieldset ><br>
+                        < fieldset ><br>
+                          < h1 >Radiobutton< /h1 ><br>
+                          < legend  align="right">-:>-:Personal infromation< /legend ><br>
+                        < input type="radio" name = "opt" >chess<br>
+                        < input type="radio" name = "opt" >ludo<br>
+                        < input type="radio" name = "opt" >match<br>
+                        < input type="radio" name = "opt" >ch<br>
+                        < /fieldset ><br>
+                                       
+                    </div>
+                </div>
+            </container>
     </ul>
     </center>
 <hr>
@@ -266,17 +504,49 @@
 <h1 id="get" class="white-color">GET method:-</h1>
 <center>
     <ul class="white-color">
-    < form method = "GET" action="https://www.google.com/" name = "my_form" ><br>
-        < label >Firstname< /label ><br>
-        < input type="text" name="uname" ><br>
-        < br >< br ><br>
-         < label >Lastname< /label ><br>
-         < input type="text" name="lnme" ><br>
-         < br >< br ><br>
+    <br>
+    <h5>
+        GET requests can be cached<br>
+        GET requests remain in the browser history<br>
+        GET requests can be bookmarked<br>
+        GET requests should never be used when dealing with sensitive data<br>
+        GET requests have length restrictions<br>
+        GET requests are only used to request data (not modify)     <br>   
+
+    </h5>
+    <br>
+
+
+
+        <container>
+            <div class="row">
+            <ul class="nav nav-pills flex-column col-2">
+                <li class="nav-item">
+                    <a href="#gm" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                </li>
+            </ul>
+        
+            <div class="tab-content col">
+                <div class="tab-pane fade show" id="gm">
+                    < form method = "GET" action="https://www.google.com/" name = "my_form" ><br>
+                    < label >Firstname< /label ><br>
+                    < input type="text" name="uname" ><br>
+                    < br >< br ><br>
+                    < label >Lastname< /label ><br>
+                    < input type="text" name="lnme" ><br>
+                    < br >< br ><br>
          
-         < input type="Submit" value="login" ><br>
-         < input type="reset" value="clear" ><br>
-        < /form >
+                    < input type="Submit" value="login" ><br>
+                    < input type="reset" value="clear" ><br>
+                     < /form >
+
+                </div>
+            </div>
+        </container> 
+
+
+
+
     </ul>
     </center>
 <hr>
@@ -284,17 +554,46 @@
 <h1 id="post" class="white-color">POST method:-</h1><a class="backbutton" href="#welcome">back</a>
 <center>
     <ul class="white-color">
-    < form method = "POST" action="https://www.google.com/" name = "my_form" ><br>
-        < label >Firstname< /label ><br>
-        < input type="text" name="uname" ><br>
-        < br >< br ><br>
-         < label >Lastname< /label ><br>
-         < input type="text" name="lnme" ><br>
-         < br >< br ><br>
-         
-         < input type="Submit" value="login" ><br>
-         < input type="reset" value="clear" ><br>
-        < /form >
+   
+        <br>
+        <h5>
+            POST is a request method supported by HTTP used by the World Wide Web. By design, 
+            the POST request method requests that a web server accept the data enclosed in the body
+             of the request message, most likely for storing it.[1] It is often 
+            used when uploading a file or when submitting a completed web form.
+        </h5>
+        <br>
+
+
+        <container>
+            <div class="row">
+            <ul class="nav nav-pills flex-column col-2">
+                <li class="nav-item">
+                    <a href="#pm" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                </li>
+            </ul>
+        
+            <div class="tab-content col">
+                <div class="tab-pane fade show" id="pm">
+                    < form method = "POST" action="https://www.google.com/" name = "my_form" ><br>
+                    < label >Firstname< /label ><br>
+                    < input type="text" name="uname" ><br>
+                    < br >< br ><br>
+                     < label >Lastname< /label ><br>
+                     < input type="text" name="lnme" ><br>
+                     < br >< br ><br>
+                     
+                     < input type="Submit" value="login" ><br>
+                     < input type="reset" value="clear" ><br>
+                    < /form >                   
+
+                </div>
+            </div>
+        </container>         
+
+
+
+
     </ul>
     </center>
 <hr>
@@ -303,11 +602,35 @@
 <h1 id="ol" class="white-color">Orderd-list:-</h1><a class="backbutton" href="#welcome">back</a>
 <center>
     <ul class="white-color">
-        <p>type = A,a,I,i</p>
-            < ol type = "A" ><br>
-            < li >anyhing< /li > <br>
-            < li >anything< /li > <br>
-            < /ol >
+           <br>
+           <h5>
+            An ordered list starts with the < ol > tag. Each list item starts with the < li > tag.
+           </h5>
+           <br>
+
+
+            <container>
+                <div class="row">
+                <ul class="nav nav-pills flex-column col-2">
+                    <li class="nav-item">
+                        <a href="#o" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                    </li>
+                </ul>
+            
+                <div class="tab-content col">
+                    <div class="tab-pane fade show" id="o">
+                        <h2>type = A,a,I,i</h2>
+                        < ol type = "A" ><br>
+                        < li >anyhing< /li > <br>
+                        < li >anything< /li > <br>
+                        < /ol >                          
+                    </div>
+                </div>
+            </container>                 
+
+
+
+
     </ul>
     </center>
 <hr>
@@ -315,11 +638,31 @@
 <h1 id="ul" class="white-color">Unorderd-list:-</h1><a class="backbutton" href="#welcome">back</a>
 <center>
     <ul class="white-color">
-        <p>type = A,a,I,i</p>
-            < ul type = "A" ><br>
-            < li >anyhing< /li > <br>
-            < li >anything< /li > <br>
-            < /ul >
+       
+       <br>
+       <h5>
+        Unordered HTML List. An unordered list starts with the < ul > tag. Each list item starts with the < li > tag.
+       </h5>
+       <br>
+
+            <container>
+                <div class="row">
+                <ul class="nav nav-pills flex-column col-2">
+                    <li class="nav-item">
+                        <a href="#u" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                    </li>
+                </ul>
+            
+                <div class="tab-content col">
+                    <div class="tab-pane fade show" id="u">
+                        <h2>type = A,a,I,i</h2>
+                        < ul type = "A" ><br>
+                        < li >anyhing< /li > <br>
+                        < li >anything< /li > <br>
+                        < /ul >                                           
+                    </div>
+                </div>
+            </container>     
     </ul>
     </center>
 <hr>
@@ -328,10 +671,29 @@
 <h1 id="dl" class="white-color">Defination-list:-</h1><a class="backbutton" href="#welcome">back</a>
 <center>
     <ul class="white-color">
-            < dl ><br>
-            < dt >Write heading< /dt > <br>
-            < dd >Write paragraph< /dd > <br>
-            < /dl >
+        <br>
+        <h5>
+         Defination HTML List. An defination list starts with the < dl >< dt >< dd > tag. 
+        </h5>
+        <br>
+
+            <container>
+                <div class="row">
+                <ul class="nav nav-pills flex-column col-2">
+                    <li class="nav-item">
+                        <a href="#d" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                    </li>
+                </ul>
+            
+                <div class="tab-content col">
+                    <div class="tab-pane fade show" id="d">
+                        < dl ><br>
+                        < dt >Write heading< /dt > <br>
+                        < dd >Write paragraph< /dd > <br>
+                        < /dl >                                                                 
+                    </div>
+                </div>
+            </container>     
     </ul>
     </center>
 <hr>
@@ -340,11 +702,35 @@
 <h1 id="Presentation-tags" class="white-color">Presentation-tags:-</h1><a class="backbutton" href="#welcome">back</a>
 <center>
     <ul class="white-color">
-            < b > bold < /b ><br>
-            < i >italic< /i > <br>
-            < strong >Strong tag< /strong > <br>
-            < small >Small tag< /small > <br>
-            < /dl >
+        <br>
+        <h5>
+            HTML elements are delineated by tags, written using angle brackets. Tags such as < img />
+             and < input /> directly introduce content into the page. Other tags such as < p > surround 
+             and provide information about document text 
+            and may include other tags as sub-elements
+        </h5>
+        <br>
+
+
+            <container>
+                <div class="row">
+                <ul class="nav nav-pills flex-column col-2">
+                    <li class="nav-item">
+                        <a href="#pt" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                    </li>
+                </ul>
+            
+                <div class="tab-content col">
+                    <div class="tab-pane fade show" id="pt">
+                        < b > bold < /b ><br>
+                        < i >italic< /i > <br>
+                        < strong >Strong tag< /strong > <br>
+                        < small >Small tag< /small > <br>
+                        < /dl >                                                                                   
+                    </div>
+                </div>
+            </container>    
+
     </ul>
     </center>
 <hr>
@@ -353,27 +739,52 @@
 <h1 id="html-Table" class="white-color">HTML Table:-</h1><a class="backbutton" href="#welcome">back</a>
 <center>
     <ul class="white-color">
-            < table ><br>
-            < thead > <br>
-            < tr ><br>
-            < th > anything < /th ><br>
-            < th > anything < /th ><br>
-            < th > anything < /th ><br>
-            < /tr ><br>
-            < /thead > <br>
-            < tbody > <br>
-            < tr ><br>
-            < td > anything  < /td ><br>
-            < td > anything  < /td ><br>
-            < td > anything  < /td ><br>
-            < /tr ><br>
-            < tr ><br>
-            < td > anything  < /td ><br>
-            < td > anything  < /td ><br>
-            < td > anything  < /td ><br>
-            < /tr ><br>
-            < /tbody > <br>
-            < /table >
+           <br>
+           <h5>
+            Tables must not be used as layout aids. There are a variety of alternatives to using HTML 
+            tables for layout, primarily using CSS positioning and the CSS table model.
+            Users might have difficulty understanding the content, authors should include explanatory 
+            information introducing the table. This information is useful for all users, but is especially useful
+             for users who cannot see the table, e.g. users of screen readers.
+           </h5>
+           <br>
+
+
+            <container>
+                <div class="row">
+                <ul class="nav nav-pills flex-column col-2">
+                    <li class="nav-item">
+                        <a href="#htt" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                    </li>
+                </ul>
+            
+                <div class="tab-content col">
+                    <div class="tab-pane fade show" id="htt">
+                        < table ><br>
+                        < thead > <br>
+                        < tr ><br>
+                        < th > anything < /th ><br>
+                        < th > anything < /th ><br>
+                        < th > anything < /th ><br>
+                        < /tr ><br>
+                        < /thead > <br>
+                        < tbody > <br>
+                        < tr ><br>
+                        < td > anything  < /td ><br>
+                        < td > anything  < /td ><br>
+                        < td > anything  < /td ><br>
+                        < /tr ><br>
+                        < tr ><br>
+                        < td > anything  < /td ><br>
+                        < td > anything  < /td ><br>
+                        < td > anything  < /td ><br>
+                        < /tr ><br>
+                        < /tbody > <br>
+                        < /table >                                                                                                 
+                    </div>
+                </div>
+            </container>     
+
     </ul>
     </center>
 <hr>
@@ -383,27 +794,52 @@
 <h1 id="colspan-and-rowspan" class="white-color">HTML Tables with colspan and rowspan:-</h1><a class="backbutton" href="#welcome">back</a>
 <center>
     <ul class="white-color">
-            < table ><br>
-            < thead  colspan="3" > <br>
-            < tr ><br>
-            < th > anything < /th ><br>
-            < th > anything < /th ><br>
-            < th > anything < /th ><br>
-            < /tr ><br>
-            < /thead > <br>
-            < tbody > <br>
-            < tr ><br>
-            < td > anything  < /td ><br>
-            < td colspan="2"> anything  < /td ><br>
-            < td > anything  < /td ><br>
-            < /tr ><br>
-            < tr ><br>
-            < td rowspan="2" > anything  < /td ><br>
-            < td > anything  < /td ><br>
-            < td > anything  < /td ><br>
-            < /tr ><br>
-            < /tbody > <br>
-            < /table >
+    <br>
+    <h5>
+        What does colspan= do? Allows a single table cell to span the width of more than one cell or column.
+         What does rowspan= do? 
+        Allows a single table cell to span the height of more than one cell or row.
+    </h5>
+    <br>
+
+            <container>
+                <div class="row">
+                <ul class="nav nav-pills flex-column col-2">
+                    <li class="nav-item">
+                        <a href="#csrs" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                    </li>
+                </ul>
+            
+                <div class="tab-content col">
+                    <div class="tab-pane fade show" id="csrs">
+                        < table ><br>
+                        < thead  colspan="3" > <br>
+                        < tr ><br>
+                        < th > anything < /th ><br>
+                        < th > anything < /th ><br>
+                        < th > anything < /th ><br>
+                        < /tr ><br>
+                        < /thead > <br>
+                        < tbody > <br>
+                        < tr ><br>
+                        < td > anything  < /td ><br>
+                        < td colspan="2"> anything  < /td ><br>
+                        < td > anything  < /td ><br>
+                        < /tr ><br>
+                        < tr ><br>
+                        < td rowspan="2" > anything  < /td ><br>
+                        < td > anything  < /td ><br>
+                        < td > anything  < /td ><br>
+                        < /tr ><br>
+                        < /tbody > <br>
+                        < /table >
+                                                                                                            
+                    </div>
+                </div>
+            </container>    
+
+
+
     </ul>
     </center>
 <hr>
@@ -412,19 +848,38 @@
 <h1 class="white-color">India-Flag:-</h1><a class="backbutton" href="#welcome">back</a>
 <center>
     <ul class="white-color">
-        < div style="background-color:orange; 
-        width:600px;
-        height:100px" > < /div > <br><br>
+       
+
+
+
+
+        <container>
+            <div class="row">
+            <ul class="nav nav-pills flex-column col-2">
+                <li class="nav-item">
+                    <a href="#if" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                </li>
+            </ul>
         
-         < div style="background-color:white;
-        width:600px;
-        height:100px"> <br>
-        < img src="C:\Users\Abhishek\OneDrive\Desktop\Ashoka_Chakra.png"  height="100" ><br>
-        < /div > <br><br>
-        
-         < div style="background-color:green;
-        width:600px;
-        height:100px" > < /div >
+            <div class="tab-content col">
+                <div class="tab-pane fade show" id="if">
+                    < div style="background-color:orange; 
+                    width:600px;
+                    height:100px" > < /div > <br><br>
+                    
+                     < div style="background-color:white;
+                    width:600px;
+                    height:100px"> <br>
+                    < img src="C:\Users\Abhishek\OneDrive\Desktop\Ashoka_Chakra.png"  height="100" ><br>
+                    < /div > <br><br>
+                    
+                     < div style="background-color:green;
+                    width:600px;
+                    height:100px" > < /div >                   
+                                                                                                        
+                </div>
+            </div>
+        </container>    
     </ul>
     </center>
 <hr>

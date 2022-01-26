@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+
+
     <title>E-learning</title>
     <link rel="stylesheet" href="html-css.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -48,27 +57,26 @@
 <hr>
 <div class="sidebar">
     <ul>
-    <li><a href="#how">How-link-css-file</a></li>
-    <li><a href="#clr">css-color</a></li>
-    <li><a href="#id">ID-selector</a></li>
-    <li><a href="#es">Element-selector</a></li>
-    <li><a href="#dc">Different-colour-methods</a></li>
-    <li><a href="#ud">Uni-direction</a></li>
-    <li><a href="#td">Text-decoration</a></li>
-    <li><a href="#ts">Text-Shaddo</a></li>
-    <li><a href="#bs">Border-Shaddo</a></li>
-    <li><a href="#fs">font-style-css</a></li>
-    <li><a href="#bgc">Background-image-css</a></li>
-    <li><a href="#tbg">Types of Background-gradient</a></li>
+    <li><a href="#how"><span>How-link-css-file</span></a></li>
+    <li><a href="#clr"><span>selectors-in-css</span></a></li>
+    <li><a href="#es"><span>Element-selector</span></a></li>
+    <li><a href="#dc"><span>Different-colour-methods</span></a></li>
+    <li><a href="#ud"><span>Uni-direction</span></a></li>
+    <li><a href="#td"><span>Text-decoration</span></a></li>
+    <li><a href="#ts"><span>Text-Shaddo</span></a></li>
+    <li><a href="#bs"><span>Border-Shaddo</span></a></li>
+    <li><a href="#fs"><span>font-style-css</span></a></li>
+    <li><a href="#bgc"><span>Background-image-css</span></a></li>
+    <li><a href="#tbg"><span>Types of Background-gradient</span></a></li>
     </ul>
 </div>
 <div class="sidebar1">
     <ul>
-    <li><a href="#tts">Text-Transformation</a></li>
-    <li><a href="#ctb">Css-Types-Of-Border</a></li>
-    <li><a href="#3b">CSS-3D-BORDER</a></li>
-    <li><a href="#mp">CSS-margin and padding</a></li>
-    <li><a href="#ap">CSS-anchore tag property</a></li>
+    <li><a href="#tts"><span>Text-Transformation</span></a></li>
+    <li><a href="#ctb"><span>Css-Types-Of-Border</span></a></li>
+    <li><a href="#3b"><span>CSS-3D-BORDER</span></a></li>
+    <li><a href="#mp"><span>CSS-margin and padding</span></a></li>
+    <li><a href="#ap"><span>CSS-anchore tag property</span></a></li>
     </ul>
 </div>
  
@@ -82,38 +90,60 @@
             <ul class="white-color">
                 < link rel="stylesheet" type="text/css" href="style.css" >  
             </ul>
-            </center>
+        </center>
         <hr>
 
-        <h1 id="clr" class="white-color">CSS colors:-</h1><a class="backbutton" href="#welcome">back</a>
+        <h1 id="clr" class="white-color">Selector:-</h1><a class="backbutton" href="#welcome">back</a>
         <center>
             <ul class="white-color">
+              <br>
+              <h5>
+                CSS selectors define the elements to which a set of CSS rules apply ,
+                 There are no selectors or combinators to select parent items, siblings
+                  of parents, or children of parent siblings.
+              </h5>
+              <br>
 
-                <h1>. Class selector</h1>      <br><a class="backbutton" href="#welcome">back</a>
-                . font-color                 <br>
-                  {                          <br>
-                    color:blue;              <br>
-                  }                          <br>
+             <a class="backbutton" href="#welcome">back</a>
 
-                                          <br><br>
-                  . background-color          <br>
-                  {                           <br>
-                    background-color:blue;    <br>
-                  }                           <br>
+                  <container>
+                    <div class="row">
+                    <ul class="nav nav-pills flex-column col-2">
+                        <li class="nav-item">
+                            <a href="#selector" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                        </li>
+                    </ul>
+                
+                    <div class="tab-content col">
+                        <div class="tab-pane fade show" id="selector">
+                          . Class selector<br><br>
+                          . font-color                 <br>
+                          {                          <br>
+                            color:blue;              <br>
+                          }                          <br>
+        
+                                                  <br><br>
+                          . background-color          <br>
+                          {                           <br>
+                            background-color:blue;    <br>
+                          }                           <br>    
+                          
+                          # ID selector<br><br><br>
+                          
+                          # font-color               <br>
+                          {                          <br>
+                            color:blue;              <br>
+                          }                          <br>
+        
+                                                  <br><br>
+                          # background-color          <br>
+                          {                           <br>
+                            background-color:blue;    <br>
+                          }                           <br>                          
+                        </div>
+                    </div>
+                </container>                  
 
-                                         <br><br>
-                  <h1 id="id"># ID selector</h1><a class="backbutton" href="#welcome">back</a>
-
-                  # font-color               <br>
-                  {                          <br>
-                    color:blue;              <br>
-                  }                          <br>
-
-                                          <br><br>
-                  # background-color          <br>
-                  {                           <br>
-                    background-color:blue;    <br>
-                  }                           <br>
 
             </ul>
             </center>
@@ -122,17 +152,43 @@
         <h1 id="es" class="white-color">Element selector:-</h1><a class="backbutton" href="#welcome">back</a>
         <center>
             <ul class="white-color">
-                   h2 {                         <br>
-                      background-color:blue;    <br>
-                    }                           <br>
-
-                                            <br><br>
-
-               p {                               <br>
-                    color:crimson;               <br>
-                    text-align:center;           <br>
-                }                                <br>
+              <br>
+              <h5>
+                The element selector chooses one or more HTML elements of the same name.
+                Thus, a selector of nav chooses all HTML nav elements, and a selector of < ul > 
+                chooses all HTML unordered lists, or < ul > elements.
+                In this ,selector chooses all elements with the specified element name.
+              </h5>
+              <br>
                 
+
+                <container>
+                  <div class="row">
+                  <ul class="nav nav-pills flex-column col-2">
+                      <li class="nav-item">
+                          <a href="#bc" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                      </li>
+                  </ul>
+              
+                  <div class="tab-content col">
+                      <div class="tab-pane fade show" id="bc">
+              
+                        h2 {                         <br>
+                          background-color:blue;    <br>
+                        }                           <br>
+    
+                                                <br><br>
+    
+                   p {                               <br>
+                        color:crimson;               <br>
+                        text-align:center;           <br>
+                    }                                <br>                         
+              
+                      </div>
+                  </div>
+              </container>                   
+
+
             </ul>
             </center>
         <hr>
@@ -146,12 +202,25 @@
                 <li>HSL :- (Hue-Saturation-Lightness)</li>
                 <li>HSLA :- (Hue-Saturation-Lightness-Alpha)</li>
 
-                                <br><br>
-                < h1 style="color:rgb(214, 0, 0)">Observer this color< /h1 >
+                               
+
+                <container>
+                  <div class="row">
+                  <ul class="nav nav-pills flex-column col-2">
+                      <li class="nav-item">
+                          <a href="#dcl" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                      </li>
+                  </ul>
+              
+                  <div class="tab-content col">
+                      <div class="tab-pane fade show" id="dcl">
+                        <hr><br>
+                        < h1 style="color:rgb(214, 0, 0)">Observer this color< /h1 >
+              
+                      </div>
+                  </div>
+              </container>   
             </ul>
-
-           
-
             </center>
         <hr>
 
@@ -160,13 +229,25 @@
         <h1 id="ud" class="white-color">Uni-Direction:-</h1><a class="backbutton" href="#welcome">back</a>
         <center>
             <ul class="white-color">
-           < h2 style="direction: rtl; unicode-bidi: bidi-override;">Ambulance< /h2 >
+
+           <container>
+            <div class="row">
+            <ul class="nav nav-pills flex-column col-2">
+                <li class="nav-item">
+                    <a href="#udl" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                </li>
             </ul>
-
-           
-
-            </center>
-        <hr>
+        
+            <div class="tab-content col">
+                <div class="tab-pane fade show" id="udl">
+                  <br>
+                  < h2 style="direction: rtl; unicode-bidi: bidi-override;">Ambulance< /h2 >        
+                </div>
+            </div>
+        </container>            
+      </ul>
+    </center>
+    <hr>
 
 
 
@@ -174,12 +255,33 @@
         <h1 id="td" class="white-color">Text-Decoration:-</h1><a class="backbutton" href="#welcome">back</a>
         <center>
             <ul class="white-color">
-                <ol> text-decoration : underline,overline,line-through,none </ol>      <br>
-                < a href="#" style="text-decoration: none;">i am a link< /a >
+              <br>
+              <h5>
+                text-decoration The text-decoration shorthand CSS property sets the 
+                appearance of decorative lines on text. It is a shorthand for text-decoration-line,
+                 text-decoration-color, text-decoration-style, and the newer text-decoration-thickness property. 
+                Text decorations are drawn across descendant text elements.
+              </h5>
+              <br>
+
+
+                <container>
+                  <div class="row">
+                  <ul class="nav nav-pills flex-column col-2">
+                      <li class="nav-item">
+                          <a href="#tdl" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                      </li>
+                  </ul>
+              
+                  <div class="tab-content col">
+                      <div class="tab-pane fade show" id="tdl">
+                        <br>
+                        <ol> text-decoration : underline,overline,line-through,none </ol>      <br>
+                        < a href="#" style="text-decoration: none;">i am a link< /a >      
+                      </div>
+                  </div>
+              </container>         
             </ul>
-
-           
-
             </center>
         <hr>
 
@@ -187,14 +289,37 @@
         <h1 id="ts" class="white-color">Text-Shaddo:-</h1><a class="backbutton" href="#welcome">back</a>
         <center>
             <ul class="white-color">
-                . text-shadow                                   <br>
-                    {                                           <br>
-                    text-shadow: 0px 5px 0px gray,              <br>
-                                2px 2px 2px blue,               <br>
-                                3px 3px 2px red,                <br>
-                                7px 3px 3px yellow              <br>
-                    }                                           <br>
+              <br>
+              <h5>
+                CSS level 3 has a property called 'text-shadow' to add a shadow to each letter of some text.
+                 In its simplest form, it looks something like this: Which adds a dark gray (#333) shadow
+                  a little to the right 
+                (0.1em) and down (0.1em) relative to the normal text.
+              </h5>
+              <br>
               
+                    <container>
+                      <div class="row">
+                      <ul class="nav nav-pills flex-column col-2">
+                          <li class="nav-item">
+                              <a href="#tdl1" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                          </li>
+                      </ul>
+                  
+                      <div class="tab-content col">
+                          <div class="tab-pane fade show" id="tdl1">
+                            <br>
+                            . text-shadow                                   <br>
+                            {                                           <br>
+                            text-shadow: 0px 5px 0px gray,              <br>
+                                        2px 2px 2px blue,               <br>
+                                        3px 3px 2px red,                <br>
+                                        7px 3px 3px yellow              <br>
+                            }                                           <br>                            
+                          </div>
+                      </div>
+                  </container>      
+
             </ul>
 
             </center>
@@ -204,15 +329,40 @@
         <h1 id="bs" class="white-color">Border-Shaddo:-</h1><a class="backbutton" href="#welcome">back</a>
         <center>
             <ul class="white-color">
-                  .border-shadow                               <br>
-                  {                                            <br>
-                    width: 300px;                              <br>
-                    height: 100px;                             <br>
-                    padding: 15px;                             <br>
-                    background-color: yellow;                  <br>
-                    box-shadow: 10px 10px;                     <br>
-                  }                                            <br>
               
+              <br>
+              <h5>
+                The CSS border properties allow you to specify the style, 
+                width, and color of an element's border. I have borders on all sides. I have a red bottom 
+                border. I have rounded borders. I have a blue left border.
+              </h5>
+              <br>
+
+                  <container>
+                    <div class="row">
+                    <ul class="nav nav-pills flex-column col-2">
+                        <li class="nav-item">
+                            <a href="#bdl1" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                        </li>
+                    </ul>
+                
+                    <div class="tab-content col">
+                        <div class="tab-pane fade show" id="bdl1">
+                          <br>
+                          .border-shadow                               <br>
+                          {                                            <br>
+                            width: 300px;                              <br>
+                            height: 100px;                             <br>
+                            padding: 15px;                             <br>
+                            background-color: yellow;                  <br>
+                            box-shadow: 10px 10px;                     <br>
+                          }                                            <br>
+                                                                         
+                        </div>
+                    </div>
+                </container>      
+
+
             </ul>
 
             </center>
@@ -222,11 +372,38 @@
         <h1 id="fs" class="white-color">font-style-css:-</h1><a class="backbutton" href="#welcome">back</a>
         <center>
             <ul class="white-color">
-                font-family:"anytype"; <br><br>
-                font-style:italic,oblique; <br><br>
-                font-weight:normal or bold or number;<br><br>
-                font-varient:normal , small-caps;<br><br>
-                font-size:1em or 5px or 10vw;
+
+              <br>
+              <h5>
+                Font Style. The font-style property is mostly used to specify italic text.
+                 This property has three values: normal - The text is shown normally ,
+                  italic - The text is shown in italics; oblique - The text is "leaning"
+                 (oblique is very similar to italic, but less supported)
+              </h5>
+              <br>
+
+                <container>
+                  <div class="row">
+                  <ul class="nav nav-pills flex-column col-2">
+                      <li class="nav-item">
+                          <a href="#fdl1" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                      </li>
+                  </ul>
+              
+                  <div class="tab-content col">
+                      <div class="tab-pane fade show" id="fdl1">
+                        <br>
+                        font-family:"anytype"; <br><br>
+                        font-style:italic,oblique; <br><br>
+                        font-weight:normal or bold or number;<br><br>
+                        font-varient:normal , small-caps;<br><br>
+                        font-size:1em or 5px or 10vw;                       
+                                                                       
+                      </div>
+                  </div>
+              </container>      
+
+
             </ul>
 
             </center>
@@ -236,18 +413,42 @@
         <h1 id="bgc" class="white-color">Background-image-css:-</h1><a class="backbutton" href="#welcome">back</a>
         <center>
             <ul class="white-color">
-            syntax = background-image:url("paste your image path");<br><br>
-
-             .bg                                                  <br>
-                {                                                  <br>
-                 background-image: url('Ashoka_Chakra.png');       <br>
-                 background-size: cover;                           <br>
-                 background-size: contain;                         <br>
-                 background-size: 1000px 550px;                     <br>
-                 background-repeat: no-repeat;                      <br>
-                 background-position: right;                         <br>
-                }                                                    <br>
+           
+              <br>
+              <h5>
+                background-image The background-image CSS property sets one or
+                 more background images on an element. The background images are
+                  drawn on stacking context layers on top of each other. The first layer 
+                specified is drawn as if it is closest to the user.
+              </h5>
+              <br>
   
+                <container>
+                  <div class="row">
+                  <ul class="nav nav-pills flex-column col-2">
+                      <li class="nav-item">
+                          <a href="#bgfdl1" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                      </li>
+                  </ul>
+              
+                  <div class="tab-content col">
+                      <div class="tab-pane fade show" id="bgfdl1">
+                        <br>
+                        syntax = background-image:url("paste your image path");<br><br>
+
+                        .bg                                                  <br>
+                           {                                                  <br>
+                            background-image: url('Ashoka_Chakra.png');       <br>
+                            background-size: cover;                           <br>
+                            background-size: contain;                         <br>
+                            background-size: 1000px 550px;                     <br>
+                            background-repeat: no-repeat;                      <br>
+                            background-position: right;                         <br>
+                           }                                                    <br>                                     
+                                                                       
+                      </div>
+                  </div>
+              </container>      
 
             </ul>
 
@@ -259,36 +460,62 @@
         <h1 id="tbg" class="white-color">Types of Background-gradient:-</h1><a class="backbutton" href="#welcome">back</a>
         <center>
             <ul class="white-color">
-                1 = Linear gradient  <br>
-                2 = Radial gradient  <br>
-                3 = Conic-gradient   <br>  <br><br>
+              <br>
+              <h5>
+                Gradient Background. CSS gradients let you display smooth transitions between two
+                 or more specified colors. CSS defines two types of gradients: Linear Gradients 
+                (goes down/up/left/right/diagonally) Radial Gradients (defined by their center)
+              </h5>
+              <br>
+
+                   <container>
+                    <div class="row">
+                    <ul class="nav nav-pills flex-column col-2">
+                        <li class="nav-item">
+                            <a href="#bgggfdl1" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                        </li>
+                    </ul>
+                
+                    <div class="tab-content col">
+                        <div class="tab-pane fade show" id="bgggfdl1">
+                          <br>
+                          
+                          1 = Linear gradient  <br>
+                          2 = Radial gradient  <br>
+                          3 = Conic-gradient   <br>  <br><br>
+          
+          
+                          .linear-gradient <br>
+                            {              <br>
+                              background:linear-gradient(to top right,red,orange,yellow,lightgreen,green) <br>
+                            }<br><br>
+          
+          
+                            .radial-gradient <br>
+                            {                 <br>
+                              background:radial-gradient(circle,white,black,white,red)  <br>
+                            } <br><br>
+          
+                            .radial-gradient   <br>
+                            {                   <br>
+                              background:radial-gradient(ellipse,white,black,white,red)   <br>
+                            }             <br><br>
+          
+          
+                            .Conic-gradient <br>
+                             {               <br>
+                              height: 200px;   <br>
+                              width: 200px;      <br>
+                              background-color: red; /* For browsers that do not support gradients */   <br>
+                              background-image: conic-gradient(red 0deg, blue, yellow 90deg,pink, green 180deg, gray, blue 270deg);   <br>
+                              border-radius: 50%;    <br>
+                             }      <br>                          
+                                                                         
+                        </div>
+                    </div>
+                </container>      
 
 
-                .linear-gradient <br>
-                  {              <br>
-                    background:linear-gradient(to top right,red,orange,yellow,lightgreen,green) <br>
-                  }<br><br>
-
-
-                  .radial-gradient <br>
-                  {                 <br>
-                    background:radial-gradient(circle,white,black,white,red)  <br>
-                  } <br><br>
-
-                  .radial-gradient   <br>
-                  {                   <br>
-                    background:radial-gradient(ellipse,white,black,white,red)   <br>
-                  }             <br><br>
-
-
-                  .Conic-gradient <br>
-                   {               <br>
-                    height: 200px;   <br>
-                    width: 200px;      <br>
-                    background-color: red; /* For browsers that do not support gradients */   <br>
-                    background-image: conic-gradient(red 0deg, blue, yellow 90deg,pink, green 180deg, gray, blue 270deg);   <br>
-                    border-radius: 50%;    <br>
-                   }      <br>
 
             </ul>
 
@@ -301,31 +528,56 @@
         <h1 id="tts"class="white-color">TEXT-TRANSFORMATION:-</h1><a class="backbutton" href="#welcome">back</a>
         <center>
             <ul class="white-color">
-                .letter-spacing  <br>
-                  {                <br>
-                    letter-spacing: 3px;  <br>
-                   } <br><br>
 
-
-                   .text-indent  <br>
-                   {              <br>
-                    text-indent: 40px;   <br>
-                   }  <br><br>
-
-
-                  .line-word-spacing     <br>
-                  {                      <br>
-                    line-height: 2;      <br>
-                    word-spacing: 20;    <br>
-                  }                      <br><br>
-
-
-
-                  .whitespace             <br>
-                    {                     <br>
-                    white-space:nowrap;   <br>
-                    white-space:normal;   <br>
-                    }                     <br>
+              <br>
+              <h5>
+                Text Transformation The text-transform property is used to specify
+                 uppercase and lowercase letters in a text. It can be used to turn everything into uppercase or
+                 lowercase letters, or capitalize the first letter of each word:
+              </h5>
+              <br>
+                
+                    <container>
+                      <div class="row">
+                      <ul class="nav nav-pills flex-column col-2">
+                          <li class="nav-item">
+                              <a href="#ttrans" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                          </li>
+                      </ul>
+                  
+                      <div class="tab-content col">
+                          <div class="tab-pane fade show" id="ttrans">
+  
+                            .letter-spacing  <br>
+                            {                <br>
+                              letter-spacing: 3px;  <br>
+                             } <br><br>
+          
+          
+                             .text-indent  <br>
+                             {              <br>
+                              text-indent: 40px;   <br>
+                             }  <br><br>
+          
+          
+                            .line-word-spacing     <br>
+                            {                      <br>
+                              line-height: 2;      <br>
+                              word-spacing: 20;    <br>
+                            }                      <br><br>
+          
+          
+          
+                            .whitespace             <br>
+                              {                     <br>
+                              white-space:nowrap;   <br>
+                              white-space:normal;   <br>
+                              }                     <br>
+                                       
+  
+                          </div>
+                      </div>
+                  </container>                    
                
             </ul>
 
@@ -337,64 +589,89 @@
         <h1 id="ctb" class="white-color">CSS-TYPES-OF-BORDER:-</h1><a class="backbutton" href="#welcome">back</a>
         <center>
             <ul class="white-color">
-               <li>
-                < div style="border-style:dotted;" >
-                    Dotted border
-                    < /div > <br><br>
-                    
-                    < div style="border-style:solid;" >
-                      solid border
-                      < /div >   <br><br>
-                    
-                      < div style="border-style:dashed;" >
-                        dashed border
-                        < /div >      <br><br>
-                    
-                        < div style="border-style:double;" >
-                          double border
-                          < /div >     <br><br>
-                    
-                    
-                          < div style="border-style:groove;" >
-                            groove border
-                            < /div >    <br><br>
-                    
-                             < div style="border-style:ridge;" >
-                              ridge border
-                              < /div >    <br><br>
-                    
-                               < div style="border-style:inset;" >
-                                inset border
-                                < /div >    <br><br>
-                    
-                                 < div style="border-style:outset;" >
-                                  outset border
-                                  < /div >    <br><br>
-                    
-                                   < div style="border-style:none;" >
-                                    none border
+
+              <br>
+              <h5>
+                Here’s the list of more than 20 different CSS border examples. 1.
+                 Fancy Border Box The first one on the examples of of css border is a
+                  decorative double border style. So one things for sure you won’t be using this for
+                 anything that’s normal but rather for something special.
+              </h5>
+              <br>
+
+               <container>
+                <div class="row">
+                <ul class="nav nav-pills flex-column col-2">
+                    <li class="nav-item">
+                        <a href="#tobs" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                    </li>
+                </ul>
+            
+                <div class="tab-content col">
+                    <div class="tab-pane fade show" id="tobs">
+
+                      <li>
+                        < div style="border-style:dotted;" >
+                            Dotted border
+                            < /div > <br><br>
+                            
+                            < div style="border-style:solid;" >
+                              solid border
+                              < /div >   <br><br>
+                            
+                              < div style="border-style:dashed;" >
+                                dashed border
+                                < /div >      <br><br>
+                            
+                                < div style="border-style:double;" >
+                                  double border
+                                  < /div >     <br><br>
+                            
+                            
+                                  < div style="border-style:groove;" >
+                                    groove border
                                     < /div >    <br><br>
-                    
-                                     < div style="border-style:hidden;" >
-                                      hidden border
-                                      < /div >   <br><br>
-                    
-                                       < div style="border-style:dashed;" >
-                                        dashed border
-                                        < /div >   <br><br>
-                    
-                                         < div style="border-style:double;" >
-                                          double border
-                                          < /div >   <br><br>
-                    
-                                           < div style="border-style:solid;" >
-                                            solid border
-                                            < /div >   <br><br>
-                    
-                                             < div style="border-style:dotted;" >
-                                              Dotted border
+                            
+                                     < div style="border-style:ridge;" >
+                                      ridge border
+                                      < /div >    <br><br>
+                            
+                                       < div style="border-style:inset;" >
+                                        inset border
+                                        < /div >    <br><br>
+                            
+                                         < div style="border-style:outset;" >
+                                          outset border
+                                          < /div >    <br><br>
+                            
+                                           < div style="border-style:none;" >
+                                            none border
+                                            < /div >    <br><br>
+                            
+                                             < div style="border-style:hidden;" >
+                                              hidden border
                                               < /div >   <br><br>
-               </li>
+                            
+                                               < div style="border-style:dashed;" >
+                                                dashed border
+                                                < /div >   <br><br>
+                            
+                                                 < div style="border-style:double;" >
+                                                  double border
+                                                  < /div >   <br><br>
+                            
+                                                   < div style="border-style:solid;" >
+                                                    solid border
+                                                    < /div >   <br><br>
+                            
+                                                     < div style="border-style:dotted;" >
+                                                      Dotted border
+                                                      < /div >   <br><br>
+                       </li>
+
+                    </div>
+                </div>
+            </container>               
                
             </ul>
 
@@ -405,56 +682,85 @@
         <h1 id="3b" class="white-color">CSS-3D-BORDER:-</h1><a class="backbutton" href="#welcome">back</a>
         <center>
             <ul class="white-color">
-                .border-width <br>
-                  {             <br>
-                    border-width: 55px; <br>
-                  } <br><br>
 
-                  .border-width  <br> 
-                  {                            <br>
-                    border-width: 55px;    <br>
-                    border-color:red green;  <br>
-                    border-style:ridge;  <br>
-                  }                                  <br><br>
-
-
-                  .border-width                   <br> 
-                  {                              <br>
-                    border-width: 55px;               <br>
-                    border-color:red green;         <br>
-                    border-style:ridge;                     <br>
-                    border-radius: 55px;              <br>
-                  }                                     <br><br>
-
-                  .border-width <br>
-                  {                                   <br>
-                    border-width: 55px;     <br>
-                    border-color:red green;             <br>
-                    border-style:ridge;          <br>
-                    border-radius: 100px 0px;             <br>
-                  }              <br><br>
-
-
-                  .border-img  <br>
-                  {                      <br>
-                    width:500px;         <br>
-                    height:100px;                       <br>
-                   border-image-source: url("");           <br>
-                   border-image-slice: 30;            <br>
-                   border-image-width: 10px;              <br>
-                   border-image-repeat: round;                <br>
-                   border-image-repeat: repeat;             <br>
-                   border-image-repeat: stretch;             <br>
-                  }                                            <br><br>
-
-
-                  .outline-and-border   <br>
-                  {                                         <br>
-                    border:10px solid red;        <br>
-                    outline:20px solid blue;                   <br>
-                    outline-style:dotted;                  <br>
-                  }                                        <br><br>
+              <br>
+              <h5>
+                3D groove border using CSS? In CSS border-style property is used
+                 to set the line style of the border of an element. The border-style 
+                 property may have one, two, three, or four values. When the specified 
+                value is one, the same style is applied to all four sides.
+              </h5>
+              <br>
+                                    <br><br>
                
+
+                  <container>
+                    <div class="row">
+                    <ul class="nav nav-pills flex-column col-2">
+                        <li class="nav-item">
+                            <a href="#dbb" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                        </li>
+                    </ul>
+                
+                    <div class="tab-content col">
+                        <div class="tab-pane fade show" id="dbb">
+
+                          .border-width <br>
+                          {             <br>
+                            border-width: 55px; <br>
+                          } <br><br>
+        
+                          .border-width  <br> 
+                          {                            <br>
+                            border-width: 55px;    <br>
+                            border-color:red green;  <br>
+                            border-style:ridge;  <br>
+                          }                                  <br><br>
+        
+        
+                          .border-width                   <br> 
+                          {                              <br>
+                            border-width: 55px;               <br>
+                            border-color:red green;         <br>
+                            border-style:ridge;                     <br>
+                            border-radius: 55px;              <br>
+                          }                                     <br><br>
+        
+                          .border-width <br>
+                          {                                   <br>
+                            border-width: 55px;     <br>
+                            border-color:red green;             <br>
+                            border-style:ridge;          <br>
+                            border-radius: 100px 0px;             <br>
+                          }              <br><br>
+        
+        
+                          .border-img  <br>
+                          {                      <br>
+                            width:500px;         <br>
+                            height:100px;                       <br>
+                           border-image-source: url("");           <br>
+                           border-image-slice: 30;            <br>
+                           border-image-width: 10px;              <br>
+                           border-image-repeat: round;                <br>
+                           border-image-repeat: repeat;             <br>
+                           border-image-repeat: stretch;             <br>
+                          }                                            <br><br>
+        
+        
+                          .outline-and-border   <br>
+                          {                                         <br>
+                            border:10px solid red;        <br>
+                            outline:20px solid blue;                   <br>
+                            outline-style:dotted;                  <br>
+                          }    
+
+                        </div>
+                    </div>
+                </container>
+
+
+
             </ul>
 
             </center>
@@ -470,23 +776,45 @@
         <center>
             <ul class="white-color">
               
-                .margin  <br>
-                {           <br>
-                    margin-top: 50px;  <br> 
-                    margin-bottom: 50px;  <br>
-                    margin-left: 50px;   <br>
-                    margin-right: 50px;   <br>
-                  }                         <br><br>
-              
-                  .padding     <br>
-                  {                 <br>
-                    padding-top: 50px;         <br>
-                    padding-bottom: 50px;         <br>
-                    padding-left: 50px;           <br>
-                    padding-right: 50px;          <br>
-                  }                                 <br><br>
+              <br>
+              <h5>
+                padding property using a single value. Margin is used to create space 
+                around elements and padding is used to create space around elements inside the border.
+                 Margin and padding target all 4 sides of the element.
+              </h5>
+              <br>
+                
 
+                  <container>
+                    <div class="row">
+                    <ul class="nav nav-pills flex-column col-2">
+                        <li class="nav-item">
+                            <a href="#mpcss" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                        </li>
+                    </ul>
+                
+                    <div class="tab-content col">
+                        <div class="tab-pane fade show" id="mpcss">
 
+                          .margin  <br>
+                          {           <br>
+                              margin-top: 50px;  <br> 
+                              margin-bottom: 50px;  <br>
+                              margin-left: 50px;   <br>
+                              margin-right: 50px;   <br>
+                            }                         <br><br>
+                        
+                            .padding     <br>
+                            {                 <br>
+                              padding-top: 50px;         <br>
+                              padding-bottom: 50px;         <br>
+                              padding-left: 50px;           <br>
+                              padding-right: 50px;          <br>
+                            }                                 <br><br>
+
+                        </div>
+                    </div>
+                </container>
                
             </ul>
 
@@ -497,42 +825,67 @@
         <h1 id="ap" class="white-color">CSS-anchore tag property:-</h1><a class="backbutton" href="#welcome">back</a>
         <center>
             <ul class="white-color">
-              
-             a<br>
-             {<br>
-              text-decoration: none;<br>
-              font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;<br>
-              border:1px soild blue;<br>
-              padding:5px;<br>
-             }<br><br>
+              <br>
+              <h5>
+                 Anchor tag in HTML can be defined as a means to create 
+                a hyperlink which can link your current page on which the text is being 
+                converted to hypertext via (anchor tag) to another page. 
+              </h5>
+              <br>
 
 
-              a:link<br>
-                   {<br>
-                    color:pink; <br>
-                  }<br><br>
+            <container>
+              <div class="row">
+              <ul class="nav nav-pills flex-column col-2">
+                  <li class="nav-item">
+                      <a href="#atp" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                  </li>
+              </ul>
+          
+              <div class="tab-content col">
+                  <div class="tab-pane fade show" id="atp">
+
+                    a<br>
+                    {<br>
+                     text-decoration: none;<br>
+                     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;<br>
+                     border:1px soild blue;<br>
+                     padding:5px;<br>
+                    }<br><br>
+       
+       
+                     a:link<br>
+                          {<br>
+                           color:pink; <br>
+                         }<br><br>
+       
+       
+                   a:visited <br>
+                   {  <br>
+                     color:green;  <br>
+                   }   <br><br>
+       
+       
+                   a:hover <br>
+                     {   <br>
+                      color:white; <br>
+                      text-shadow:0px 0px 3px black; <br>
+                      background:linear-gradient(to right,yellow,skyblue);  <br>
+                      border:1px soild red;  <br>
+                     } <br><br>
+       
+       
+                   a:active <br>
+                   {  <br>
+                     color:white;  <br>
+                     font-size:50px; <br>
+                   }   <br><br>
+
+                  </div>
+              </div>
+          </container>
 
 
-            a:visited <br>
-            {  <br>
-              color:green;  <br>
-            }   <br><br>
-
-
-            a:hover <br>
-              {   <br>
-               color:white; <br>
-               text-shadow:0px 0px 3px black; <br>
-               background:linear-gradient(to right,yellow,skyblue);  <br>
-               border:1px soild red;  <br>
-              } <br><br>
-
-
-            a:active <br>
-            {  <br>
-              color:white;  <br>
-              font-size:50px; <br>
-            }   <br><br>
             </ul>
             </center>
         <hr>

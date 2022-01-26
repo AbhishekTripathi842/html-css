@@ -46,7 +46,6 @@ body{
     font-size: 30px;
     text-align: center;
     padding-top: 10px;
-    
 }
 
 
@@ -69,30 +68,69 @@ a{
 }
 
 .sidebar{
-    background-color: black;
+    background: radial-gradient(circle,gray,black);
     height: 480px;
+    border-radius: 20px;
+    border:1px solid black;
 }
 
 .sidebar1{
     height: 500px;
     position: absolute;
     left: 300px;
-    top: 480px;
+    top: 358px;
 }
 
 .backbutton{
-    color:black;
     font-style: italic;
     position: absolute;
     margin-left: 1428px;
     margin-top: -60px;
+    color:rgb(3, 3, 3);
+    font-style: italic;
+    font-size: 25px;   
 }
 
 .notes{
-    background-color: darkslategray;
+    background:radial-gradient(circle,gray,black);
     height: 70px;
+    border-radius: 300px;
+    border:3px solid white;
 }
 
 .lheight{
     height: 600px;
+}
+
+span:hover{
+    color: goldenrod;
+    font-size: 25px;
+}
+
+.backbutton1{
+    color:black;
+    font-style: italic;
+    position: absolute;
+    margin-left: 1390px;
+    margin-top: -60px;
+}
+
+.red-color{
+
+    color:red;
+    font-style: italic;
+    font-size: 20px;
+    background-color:black;
+    border-radius: 20px;
+    border: 2px solid white;
+    width:120px;
+}
+p:hover{
+    color:yellow;
+    background-color: red;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: transparent;
 }
