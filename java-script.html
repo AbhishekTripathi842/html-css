@@ -20,18 +20,18 @@
         <a href="index.html">
             <li class="inline"><i class="fa fa-home"> home</i></li>
         </a>
-
         <a href="html.html">
             <li class="inline"><i class="fa fa-html5"> html</i></li>
         </a>
-
+        <a href="css.html">
+            <li class="inline"><i class="fa fa-css3"> css</i></li>
+        </a>
         <a href="bootstrap.html">
             <li class="inline"><i class="fa fa-bitcoin"> bootstrap</i></li>
         </a>
-        <a href="css.html">
-            <li class="inline"><i class="fa fa-bitcoin"> css</i></li>
+        <a href="java-script.html">
+            <li class="inline"><i class="fa fa-bitcoin"> JavaScript</i></li>
         </a>
-       
         <a href="https://abhishektripathi842.github.io/Portfolio/">
             <li class="inline"><i class="fa fa-address-card"> About-Us</i></li>
         </a>
@@ -88,15 +88,31 @@
         <h1 id="fb" class="white-color">FUNCTION ACCESS WITH OBJECT :-</h1><a class="backbutton" href="#welcome">back</a>
         <center>
             <ul class="white-color">
-            <h1 class="white-color">examp 1 =></h1>
-             function class_one() <br>
-             {<br>
-               this.sub_one = "angular"<br>
-               this.sub_two = "python"<br>
-             }<br>
-
-             var obj = new class_one()<br>
-             console.log(obj.sub_one , obj.sub_two);<br>
+            
+            
+             <container>
+                <div class="row">
+                <ul class="nav nav-pills flex-column col-2">
+                    <li class="nav-item">
+                        <a href="#dcl" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                    </li>
+                </ul>
+            
+                <div class="tab-content col">
+                    <div class="tab-pane fade show" id="dcl">
+                      <hr><br>
+                      function class_one() <br>
+                      {<br>
+                        this.sub_one = "angular"<br>
+                        this.sub_two = "python"<br>
+                      }<br>
+         
+                      var obj = new class_one()<br>
+                      console.log(obj.sub_one , obj.sub_two);<br>
+            
+                    </div>
+                </div>
+            </container>  
             </ul>
             </center>
         <hr>
@@ -105,30 +121,47 @@
         <h1 id="cf" class="white-color">constructor fun :-</h1><a class="backbutton" href="#welcome">back</a>
         <center>
             <ul class="white-color">
-            <h1 class="white-color">examp 1 =></h1>
+            
+          
 
-            function class_one()<br>
-            {<br>
-                this.sub_one = "angular"<br>
-                this.wish = function(){<br>
-                    return`welcome to ${this.sub_one}`<br>
-                }<br>
-            }<br>
+            <container>
+                <div class="row">
+                <ul class="nav nav-pills flex-column col-2">
+                    <li class="nav-item">
+                        <a href="#dcdl" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                    </li>
+                </ul>
             
-            console.log(new class_one().wish());<br><br><br>
+                <div class="tab-content col">
+                    <div class="tab-pane fade show" id="dcdl">
+                      <hr><br>
+                      function class_one()<br>
+                      {<br>
+                          this.sub_one = "angular"<br>
+                          this.wish = function(){<br>
+                              return`welcome to ${this.sub_one}`<br>
+                          }<br>
+                      }<br>
+                      
+                      console.log(new class_one().wish());<br><br><br>
+                      
+                      
+                      <h1 class="white-color">examp 2 =></h1><br>
+                      
+                      function class_one(arg1 ,arg2 ,arg3)<br>
+                      {<br>
+                         this.sub1 = arg1<br>
+                         this.sub2 = arg2<br>
+                         this.sub3 = arg3<br>
+                      }<br>
+                      
+                      let obj = new class_one("maths","science","physics")<br>
+                      console.log(obj.sub1 , obj.sub2 ,obj.sub3);<br>
+          
             
-            
-            <h1 class="white-color">examp 2 =></h1><br>
-            
-            function class_one(arg1 ,arg2 ,arg3)<br>
-            {<br>
-               this.sub1 = arg1<br>
-               this.sub2 = arg2<br>
-               this.sub3 = arg3<br>
-            }<br>
-            
-            let obj = new class_one("maths","science","physics")<br>
-            console.log(obj.sub1 , obj.sub2 ,obj.sub3);<br>
+                    </div>
+                </div>
+            </container>  
             </ul>
             </center>
         <hr>
@@ -137,29 +170,47 @@
         <h1 id="pt" class="white-color">Prototype :-</h1><a class="backbutton" href="#welcome">back</a>
         <center>
             <ul class="white-color">
-            <h1 class="white-color">examp 1 =></h1>
+           
+          
 
-            function class_one(){}<br>
-
-            class_one.prototype.sub_one="angular"<br>
-            class_one.prototype.sub_two="react"<br>
+             <container>
+                <div class="row">
+                <ul class="nav nav-pills flex-column col-2">
+                    <li class="nav-item">
+                        <a href="#dcddl" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                    </li>
+                </ul>
             
-            console.log(new class_one().sub_one)<br><br><br>
+                <div class="tab-content col">
+                    <div class="tab-pane fade show" id="dcddl">
+                      <hr><br>
+                      function class_one(){}<br>
 
-
-            <h1 class="white-color">examp 2 => :-</h1>
-            function class_one(){}<br>
-
-             class_one.prototype.sub_one="angular"<br>
-             class_one.prototype.sub_two="react"<br>
-
-             console.log(new class_one().sub_one)<br>
-
-             class_one.prototype.sub_three = "english"<br>
-
-             obj1 = new class_one()<br>
-
-             console.log(obj1.sub_three)<br>
+                      class_one.prototype.sub_one="angular"<br>
+                      class_one.prototype.sub_two="react"<br>
+                      
+                      console.log(new class_one().sub_one)<br><br><br>
+          
+          
+                      <h1 class="white-color">examp 2 => :-</h1>
+                      function class_one(){}<br>
+          
+                       class_one.prototype.sub_one="angular"<br>
+                       class_one.prototype.sub_two="react"<br>
+          
+                       console.log(new class_one().sub_one)<br>
+          
+                       class_one.prototype.sub_three = "english"<br>
+          
+                       obj1 = new class_one()<br>
+          
+                       console.log(obj1.sub_three)<br>
+          
+          
+            
+                    </div>
+                </div>
+            </container>  
             </ul>
             </center>
         <hr>
@@ -169,51 +220,70 @@
         <h1 id="pc" class="white-color">Prototype-channging :-</h1><a class="backbutton" href="#welcome">back</a>
         <center>
             <ul class="white-color">
-            <h1 class="white-color">examp 1 =></h1>
-
-
-            function class_three(){}<br>
-            class_three.prototype.var_three = 12<br>
             
-            function class_four(){}<br>
-                    class_four.prototype = Object.create(class_three.prototype)<br>
-                    class_four.prototype.var_four = 14.7<br>
-           
-                    function class_five(){}<br>
-                    class_five.prototype = Object.create(class_four.prototype)<br>
-                    class_five.prototype.var_five = 'abc'     <br>
-                   
-            var obj = new class_five()<br>
-            console.log(obj.var_three,obj.var_four,obj.var_five)<br><br>
 
 
-            <h1 class="white-color">examp 2 =></h1>
 
-
-            function class_first(){}<br>
-            class_first.prototype.name="abhishek"<br>
+            <container>
+                <div class="row">
+                <ul class="nav nav-pills flex-column col-2">
+                    <li class="nav-item">
+                        <a href="#dcfdfdl" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                    </li>
+                </ul>
             
-            function class_two(){}<br>
-            class_two.prototype = Object.create(class_first.prototype)<br>
-            class_two.prototype.lastname="tiwari"<br>
-            function class_three(){}<br>
-            class_three.prototype = Object.create(class_two.prototype)<br>
-            class_three.prototype.lname="lucky"<br>
-            function class_four(){}<br>
-            class_four.prototype = Object.create(class_three.prototype)<br>
-            class_four.prototype.fname="thakur"<br>
-            
-            
-            obj = new class_four()<br>
-            console.log(obj.lname,obj.fname,obj.lastname,obj.name)   <br> <br>
-            
-            <h1 class="white-color">examp 3 =></h1>
+                <div class="tab-content col">
+                    <div class="tab-pane fade show" id="dcfdfdl">
+                      <hr><br>
+                      <h1 class="white-color">examp 1 =></h1>
 
-            function class_on(name)<br>
-            {<br>
-                    return this.name = {name:"abhishek" ,class:"me"}<br>
-            }  <br>
-            console.log(new class_on().class)  <br>
+
+                      function class_three(){}<br>
+                      class_three.prototype.var_three = 12<br>
+                      
+                      function class_four(){}<br>
+                              class_four.prototype = Object.create(class_three.prototype)<br>
+                              class_four.prototype.var_four = 14.7<br>
+                     
+                              function class_five(){}<br>
+                              class_five.prototype = Object.create(class_four.prototype)<br>
+                              class_five.prototype.var_five = 'abc'     <br>
+                             
+                      var obj = new class_five()<br>
+                      console.log(obj.var_three,obj.var_four,obj.var_five)<br><br>
+          
+          
+                      <h1 class="white-color">examp 2 =></h1>
+          
+          
+                      function class_first(){}<br>
+                      class_first.prototype.name="abhishek"<br>
+                      
+                      function class_two(){}<br>
+                      class_two.prototype = Object.create(class_first.prototype)<br>
+                      class_two.prototype.lastname="tiwari"<br>
+                      function class_three(){}<br>
+                      class_three.prototype = Object.create(class_two.prototype)<br>
+                      class_three.prototype.lname="lucky"<br>
+                      function class_four(){}<br>
+                      class_four.prototype = Object.create(class_three.prototype)<br>
+                      class_four.prototype.fname="thakur"<br>
+                      
+                      
+                      obj = new class_four()<br>
+                      console.log(obj.lname,obj.fname,obj.lastname,obj.name)   <br> <br>
+                      
+                      <h1 class="white-color">examp 3 =></h1>
+          
+                      function class_on(name)<br>
+                      {<br>
+                              return this.name = {name:"abhishek" ,class:"me"}<br>
+                      }  <br>
+                      console.log(new class_on().class)  <br>
+            
+                    </div>
+                </div>
+            </container>  
             </ul>
             </center>
         <hr>
@@ -223,20 +293,39 @@
         <h1 id="JSON" class="white-color">JSON :-</h1><a class="backbutton" href="#welcome">back</a>
         <center>
             <ul class="white-color">
-            <h1 class="white-color">examp 1 =></h1>
-            var demo = {<br>
-                'sub_one':'html',<br>
-                'sub_two':'css',<br>
-                sub_three:'bootstrap'<br>
-                      }<br>
-        
-        console.log(demo.sub_one , demo.sub_two,demo.sub_three)<br>
-        
-        //Accessing with the help of for loop <br>
 
-        for(var x in demo){<br>
-                console.log(demo[x])<br>
-        }<br>
+
+
+
+        <container>
+            <div class="row">
+            <ul class="nav nav-pills flex-column col-2">
+                <li class="nav-item">
+                    <a href="#dcffefl" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                </li>
+            </ul>
+        
+            <div class="tab-content col">
+                <div class="tab-pane fade show" id="dcffefl">
+                  <hr><br>
+                  <h1 class="white-color">examp 1 =></h1>
+                  var demo = {<br>
+                      'sub_one':'html',<br>
+                      'sub_two':'css',<br>
+                      sub_three:'bootstrap'<br>
+                            }<br>
+              
+              console.log(demo.sub_one , demo.sub_two,demo.sub_three)<br>
+              
+              //Accessing with the help of for loop <br>
+      
+              for(var x in demo){<br>
+                      console.log(demo[x])<br>
+              }<br>
+        
+                </div>
+            </div>
+        </container>  
             </ul>
             </center>
         <hr>
@@ -249,34 +338,53 @@
             freez()   //red allow only<br>
 
             seal()    //read and update only allow<br><br><br><br><br><br>
-            <h1 class="white-color">examp 1 =></h1>
+         
 
-            const { object } = require("prop-types");<br>
 
-            var demo = {<br>
-                    'sub_one':'html',<br>
-                    'sub_two':'css',<br>
-                    sub_three:'bootstrap'<br>
-            }<br>
-            console.log(demo);<br>
-            demo.name = "abhishek";<br>
-            console.log(demo)<br>
+            <container>
+                <div class="row">
+                <ul class="nav nav-pills flex-column col-2">
+                    <li class="nav-item">
+                        <a href="#dcvfvfl" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                    </li>
+                </ul>
             
-            Object.freeze(demo);<br>
+                <div class="tab-content col">
+                    <div class="tab-pane fade show" id="dcvfvfl">
+                      <hr><br>
+                      <h1 class="white-color">examp 1 =></h1>
+
+                      const { object } = require("prop-types");<br>
+          
+                      var demo = {<br>
+                              'sub_one':'html',<br>
+                              'sub_two':'css',<br>
+                              sub_three:'bootstrap'<br>
+                      }<br>
+                      console.log(demo);<br>
+                      demo.name = "abhishek";<br>
+                      console.log(demo)<br>
+                      
+                      Object.freeze(demo);<br>
+                      
+                      demo.lname = "tripathi";<br>
+                      console.log(demo)<br>
+                      
+                      Object.seal(demo)<br>
+                      
+                      demo.lname = "tripathi";<br>
+                      console.log(demo)<br>
+                      
+                      delete demo.name<br>
+                      console.log(demo)<br>
+                      
+                      demo.name="lucky"<br>
+                      console.log(demo)<br>
+          
             
-            demo.lname = "tripathi";<br>
-            console.log(demo)<br>
-            
-            Object.seal(demo)<br>
-            
-            demo.lname = "tripathi";<br>
-            console.log(demo)<br>
-            
-            delete demo.name<br>
-            console.log(demo)<br>
-            
-            demo.name="lucky"<br>
-            console.log(demo)<br>
+                    </div>
+                </div>
+            </container>  
             
             </ul>
             </center>
@@ -290,67 +398,104 @@
         <center>
             <ul class="white-color">
 
-            <h1 class="white-color">examp 1 =></h1>
-            
-            var demo = {<br>
-                'sub_one':'html',<br>
-                'sub_two':'css',<br>
-                sub_three:'bootstrap'<br>
-                }<br>
-        console.log(demo);<br>
-        
-        Object.defineProperty(demo,"p_name",{value:"p_one",writable:false})<br>
-        
-        console.log(demo)<br><br>
+           
 
-        <h1 class="white-color">examp 2 =></h1>
-        var demo = {<br>
-            'sub_one':'html',<br>
-            'sub_two':'css',<br>
-            sub_three:'bootstrap'<br>
-            }<br>
-    console.log(demo);<br>
-    
-    
-    Object.defineProperties(demo,{<br>
-            p_name : {value : "p_one",writable:true},<br>
-            p_cost : {value : 1000 , writable:true}<br>
-    
-    })<br>
-    
-    console.log(demo)        <br>
+
+
+
+
+
+
+        <container>
+            <div class="row">
+            <ul class="nav nav-pills flex-column col-2">
+                <li class="nav-item">
+                    <a href="#dcfrertl" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                </li>
+            </ul>
+        
+            <div class="tab-content col">
+                <div class="tab-pane fade show" id="dcfrertl">
+                  <hr><br>
+                  <h1 class="white-color">examp 1 =></h1>
             
+                  var demo = {<br>
+                      'sub_one':'html',<br>
+                      'sub_two':'css',<br>
+                      sub_three:'bootstrap'<br>
+                      }<br>
+              console.log(demo);<br>
+              
+              Object.defineProperty(demo,"p_name",{value:"p_one",writable:false})<br>
+              
+              console.log(demo)<br><br>
+      
+              <h1 class="white-color">examp 2 =></h1>
+              var demo = {<br>
+                  'sub_one':'html',<br>
+                  'sub_two':'css',<br>
+                  sub_three:'bootstrap'<br>
+                  }<br>
+          console.log(demo);<br>
+          
+          
+          Object.defineProperties(demo,{<br>
+                  p_name : {value : "p_one",writable:true},<br>
+                  p_cost : {value : 1000 , writable:true}<br>
+          
+          })<br>
+          
+          console.log(demo)        <br>
+        </container>  
             </ul>
             </center>
         <hr>
 
 
-        <h1 id="ef" class="white-color">entries and fromEntries :-</h1><a class="backbutton" href="#welcome">back</a>
+
+
+        <h1 id="ef" class="white-color">Entries and fromEntries :-</h1><a class="backbutton" href="#welcome">back</a>
         <center>
             <ul class="white-color">
-            <h1 class="white-color">examp 1 =></h1>
 
-            var demo = {<br>
-                'sub_one':'html',<br>
-                'sub_two':'css',<br>
-                sub_three:'bootstrap'<br>
-        }<br>
-        console.log(demo);<br>
-        
-        let arr = Object.entries(demo);<br>
-        
-        console.log(arr)<br>
-        
-        let arr1 = [["p_id , 111"],["p_name","p_one"],["p_cost",10000]]<br>
-        
-        let obj1 = Object.fromEntries(arr1)<br>
-        
-        console.log(arr1)<br>
-        
-        console.log(arr1)<br>
+
+
+
+        <container>
+            <div class="row">
+            <ul class="nav nav-pills flex-column col-2">
+                <li class="nav-item">
+                    <a href="#dcfrertl" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                </li>
             </ul>
-            </center>
-        <hr>
+        
+            <div class="tab-content col">
+                <div class="tab-pane fade show" id="dcfrertl">
+                  <hr><br>
+                  <h1 class="white-color">examp 1 =></h1>
+
+                  var demo = {<br>
+                      'sub_one':'html',<br>
+                      'sub_two':'css',<br>
+                      sub_three:'bootstrap'<br>
+              }<br>
+              console.log(demo);<br>
+              
+              let arr = Object.entries(demo);<br>
+              
+              console.log(arr)<br>
+              
+              let arr1 = [["p_id , 111"],["p_name","p_one"],["p_cost",10000]]<br>
+              
+              let obj1 = Object.fromEntries(arr1)<br>
+              
+              console.log(arr1)<br>
+              
+              console.log(arr1)<br>
+        </container>  
+     </ul>
+    </center>
+<hr>  
 
 
 
@@ -374,60 +519,80 @@
                 -promise is the predefine class in java script.<br>
                 -promises can be consumed using then() function.<br>
 
-                <h1 class="white-color">examp 1 =></h1>
-
-                let my_promise = new Promise((resolve,reject)=>{<br>
-                    resolve("tommorow i will be at home")<br>
+               
+                           
                 
-                })<br>
-                
-                my_promise.then((posres)=>{<br>
-                    console.log(posres)<br>
-                },(err)=>{console.log(err)})   <br>    
-                
-                
-                
-                <h1 class="white-color">examp 2 =></h1>
-                let my_promise = new Promise((resolve,reject)=>{<br>
-                    setTimeout(()=>{<br>
-                    resolve("tommorow i will be at home")<br>
-                },5000)<br>
-                })<br>
-                
-                my_promise.then((posres)=>{<br>
-                    console.log(posres)<br>
-                },(err)=>{console.log(err)})<br>
 
 
-                <h1 class="white-color">examp 3 =></h1>
-                let my_mypromise = new Promise((resolve,reject)=>{<br>
-                    reject("fail")<br>
-                    resolve("success")<br>
-                })<br>
-                
-                my_mypromise.then((posres)=>{<br>
-                    console.log("pos",posres)<br>
-                },(err)=>{<br>
-                    console.log("neg",err)<br>
-                })<br>
 
-                <h1 class="white-color">examp 4 =></h1>
+                <container>
+                    <div class="row">
+                    <ul class="nav nav-pills flex-column col-2">
+                        <li class="nav-item">
+                            <a href="#dcgrtgtrgl" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                        </li>
+                    </ul>
                 
-                let my_mypromise = new Promise((resolve,reject)=>{<br>
-                    setTimeout(()=>{<br>
-                        resolve("success")<br>
-                    },5000)<br>
-                    setTimeout(()=>{<br>
-                        reject("fail")<br>
-                    },4000)<br>
-                })<br>
+                    <div class="tab-content col">
+                        <div class="tab-pane fade show" id="dcgrtgtrgl">
+                          <hr><br>
+                          <h1 class="white-color">examp 1 =></h1>
+
+                          let my_promise = new Promise((resolve,reject)=>{<br>
+                              resolve("tommorow i will be at home")<br>
+                          
+                          })<br>
+                          
+                          my_promise.then((posres)=>{<br>
+                              console.log(posres)<br>
+                          },(err)=>{console.log(err)})   <br>    
+                          
+                          
+                          
+                          <h1 class="white-color">examp 2 =></h1>
+                          let my_promise = new Promise((resolve,reject)=>{<br>
+                              setTimeout(()=>{<br>
+                              resolve("tommorow i will be at home")<br>
+                          },5000)<br>
+                          })<br>
+                          
+                          my_promise.then((posres)=>{<br>
+                              console.log(posres)<br>
+                          },(err)=>{console.log(err)})<br>
+          
+          
+                          <h1 class="white-color">examp 3 =></h1>
+                          let my_mypromise = new Promise((resolve,reject)=>{<br>
+                              reject("fail")<br>
+                              resolve("success")<br>
+                          })<br>
+                          
+                          my_mypromise.then((posres)=>{<br>
+                              console.log("pos",posres)<br>
+                          },(err)=>{<br>
+                              console.log("neg",err)<br>
+                          })<br>
+          
+                          <h1 class="white-color">examp 4 =></h1>
+                          
+                          let my_mypromise = new Promise((resolve,reject)=>{<br>
+                              setTimeout(()=>{<br>
+                                  resolve("success")<br>
+                              },5000)<br>
+                              setTimeout(()=>{<br>
+                                  reject("fail")<br>
+                              },4000)<br>
+                          })<br>
+                          
+                          my_mypromise.then((posres)=>{<br>
+                              console.log(posres)<br>
+                          },(error)=>{<br>
+                              console.log(error)<br>
+                          })<br>
                 
-                my_mypromise.then((posres)=>{<br>
-                    console.log(posres)<br>
-                },(error)=>{<br>
-                    console.log(error)<br>
-                })<br>
-                                
+                        </div>
+                    </div>
+                </container>  
 
             </ul>
             </center>
@@ -442,19 +607,39 @@
                 -these keywords increase application performance.<br><br><br>
                 
                 
-                // example 1<br><br><br>
+
+
+
+
+
+                <container>
+                    <div class="row">
+                    <ul class="nav nav-pills flex-column col-2">
+                        <li class="nav-item">
+                            <a href="#dcjkjbjl" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                        </li>
+                    </ul>
                 
-                let my_promise = new Promise((resolve , reject)=>{<br>
-                    resolve("hello")<br>
-                })<br>
+                    <div class="tab-content col">
+                        <div class="tab-pane fade show" id="dcjkjbjl">
+                          <hr><br>
+                         Example 1<br><br><br>
                 
-                async function my_fun()<br>
-                {<br>
-                    let res = await my_promise<br>
-                    console.log(res)<br>
-                }<br>
+                          let my_promise = new Promise((resolve , reject)=>{<br>
+                              resolve("hello")<br>
+                          })<br>
+                          
+                          async function my_fun()<br>
+                          {<br>
+                              let res = await my_promise<br>
+                              console.log(res)<br>
+                          }<br>
+                          
+                          my_fun()<br>
                 
-                my_fun()<br>
+                        </div>
+                    </div>
+                </container>  
             </ul>
             </center>
         <hr>        
@@ -469,93 +654,112 @@
                 -callback function is arrow function<br>
                 
                 
-                // Example 1<br><br>
-                
-                function fun_one(arg)<br>
-                {<br>
-                    console.log(arg())<br>
-                }<br>
-                
-                fun_one(()=>{<br>
-                    return "hello....1"<br>
-                })<br><br><br>
+ 
                 
                 
+
+                <container>
+                    <div class="row">
+                    <ul class="nav nav-pills flex-column col-2">
+                        <li class="nav-item">
+                            <a href="#fdgfgfgr" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                        </li>
+                    </ul>
                 
-                // example 2<br><br>
+                    <div class="tab-content col">
+                        <div class="tab-pane fade show" id="fdgfgfgr">
+                          <hr><br>
+                          // Example 1<br><br>
                 
-                function fun_one(arg1,arg2,arg3)<br>
-                {<br>
-                    console.log(arg1(),arg2(),arg3())<br>
-                }<br>
-                
-                fun_one(()=>{return "1"},<br>
-                ()=>{return "2"},<br>
-                ()=>{return "3"}<br>
-                )<br>
-                
-                
-                
-                // example 3<br><br><br>
-                
-                function add(num , callback){<br>
-                    return callback((num+5),false)<br>
-                }<br>
-                
-                add(3,(addresponse,error)=>{<br>
-                   if(!error){<br>
-                       console.log(addresponse)<br>
-                   }<br>
-                })<br><br>
-                
-                
-                <hr>
-                
-                //callback-hell<br><br><br><br>
-                
-                // example 4<br><br>
-                
-                function add(num,callback)<br>
-                {<br>
-                    return callback((num+5),false)<br>
-                }<br>
-                
-                function sub(num,callback)<br>
-                {<br>
-                    return callback((num - 3),false)<br>
-                }<br>
-                
-                function mul(num,callback)<br>
-                {<br>
-                    return callback((num * 4),false)<br>
-                }<br>
-                
-                function div(num,callback)<br>
-                {<br>
-                    return callback((num/2),false)<br>
-                }<br>
-                
-                add(5,(addres,err)=>{<br>
-                    if(!err)<br>
-                    {<br>
-                      sub(addres,(subres,err)=>{<br>
-                          if(!err)<br>
+                          function fun_one(arg)<br>
                           {<br>
-                             mul(subres,(mulres,err)=>{<br>
-                                 if(!err)<br>
-                                 {<br>
-                                  div(mulres,(divres,err)=>{<br>
-                                      if(!err)<br>
-                                      {<br>
-                                          console.log(divres)<br>
-                                      }<br>
-                                  })<br>
-                                 }<br>
-                             })<br>
+                              console.log(arg())<br>
                           }<br>
-                      })<br>
-                    }<br>
-                })  <br>         
+                          
+                          fun_one(()=>{<br>
+                              return "hello....1"<br>
+                          })<br><br><br>
+                          
+                          
+                          
+                          // example 2<br><br>
+                          
+                          function fun_one(arg1,arg2,arg3)<br>
+                          {<br>
+                              console.log(arg1(),arg2(),arg3())<br>
+                          }<br>
+                          
+                          fun_one(()=>{return "1"},<br>
+                          ()=>{return "2"},<br>
+                          ()=>{return "3"}<br>
+                          )<br>
+                          
+                          
+                          
+                          // example 3<br><br><br>
+                          
+                          function add(num , callback){<br>
+                              return callback((num+5),false)<br>
+                          }<br>
+                          
+                          add(3,(addresponse,error)=>{<br>
+                             if(!error){<br>
+                                 console.log(addresponse)<br>
+                             }<br>
+                          })<br><br>
+                          
+                          
+                          <hr>
+                          
+                          //callback-hell<br><br><br><br>
+                          
+                          // example 4<br><br>
+                          
+                          function add(num,callback)<br>
+                          {<br>
+                              return callback((num+5),false)<br>
+                          }<br>
+                          
+                          function sub(num,callback)<br>
+                          {<br>
+                              return callback((num - 3),false)<br>
+                          }<br>
+                          
+                          function mul(num,callback)<br>
+                          {<br>
+                              return callback((num * 4),false)<br>
+                          }<br>
+                          
+                          function div(num,callback)<br>
+                          {<br>
+                              return callback((num/2),false)<br>
+                          }<br>
+                          
+                          add(5,(addres,err)=>{<br>
+                              if(!err)<br>
+                              {<br>
+                                sub(addres,(subres,err)=>{<br>
+                                    if(!err)<br>
+                                    {<br>
+                                       mul(subres,(mulres,err)=>{<br>
+                                           if(!err)<br>
+                                           {<br>
+                                            div(mulres,(divres,err)=>{<br>
+                                                if(!err)<br>
+                                                {<br>
+                                                    console.log(divres)<br>
+                                                }<br>
+                                            })<br>
+                                           }<br>
+                                       })<br>
+                                    }<br>
+                                })<br>
+                              }<br>
+                          })  <br>      
+                
+                        </div>
+                    </div>
+                </container>  
             </ul>
             </center>
         <hr>        
@@ -564,56 +768,70 @@
         <h1 id="Solve" class="white-color">Solve callback-hell problem with async and await :-</h1><a class="backbutton" href="#welcome">back</a>
         <center>
             <ul class="white-color">
-                function add(num)<br> 
-                {<br> 
-                    return new Promise((resolve, reject)=>{<br> 
-                        resolve(num + 5)<br> 
-                    })<br> 
-                }<br> 
+
+
+
+
+
+
+
+                <container>
+                    <div class="row">
+                    <ul class="nav nav-pills flex-column col-2">
+                        <li class="nav-item">
+                            <a href="#dcgdgfgtbrl" class="nav-link" data-toggle = "pill"><p class="red-color">Examples</p></a>
+                        </li>
+                    </ul>
                 
-                function sub(num)<br> 
-                {<br> 
-                    return new Promise((resolve,reject)=>{<br> 
-                        resolve(num - 3)<br> 
-                    })<br> 
-                }<br> 
+                    <div class="tab-content col">
+                        <div class="tab-pane fade show" id="dcgdgfgtbrl">
+                          <hr><br>
+                          function add(num)<br> 
+                          {<br> 
+                              return new Promise((resolve, reject)=>{<br> 
+                                  resolve(num + 5)<br> 
+                              })<br> 
+                          }<br> 
+                          
+                          function sub(num)<br> 
+                          {<br> 
+                              return new Promise((resolve,reject)=>{<br> 
+                                  resolve(num - 3)<br> 
+                              })<br> 
+                          }<br> 
+                          
+                          function mul(num)<br> 
+                          {<br> 
+                              return new Promise((resolve, reject)=>{<br> 
+                                  resolve(num * 4)<br> 
+                              })<br> 
+                          }<br> 
+                          
+                          function div(num)<br> 
+                          {<br> 
+                              return new Promise((resolve, reject)=>{<br> 
+                                  resolve(num / 2)<br> 
+                              })<br> 
+                          }<br> 
+                          async function myFun()<br> 
+                          {<br> 
+                              let addRes = await add(5)<br> 
+                              let subRes = await sub(addRes)<br> 
+                              let mulRes = await mul(subRes)<br> 
+                              let divRes = await div(mulRes)<br> 
+                              console.log(divRes)<br> 
+                          }<br> <br> 
+                          
+                          myFun()<br> 
                 
-                function mul(num)<br> 
-                {<br> 
-                    return new Promise((resolve, reject)=>{<br> 
-                        resolve(num * 4)<br> 
-                    })<br> 
-                }<br> 
-                
-                function div(num)<br> 
-                {<br> 
-                    return new Promise((resolve, reject)=>{<br> 
-                        resolve(num / 2)<br> 
-                    })<br> 
-                }<br> 
-                async function myFun()<br> 
-                {<br> 
-                    let addRes = await add(5)<br> 
-                    let subRes = await sub(addRes)<br> 
-                    let mulRes = await mul(subRes)<br> 
-                    let divRes = await div(mulRes)<br> 
-                    console.log(divRes)<br> 
-                }<br> <br> 
-                
-                myFun()<br> 
+                        </div>
+                    </div>
+                </container>  
+
+
             </ul>
             </center>
         <hr>
-
-
-
-
-
-
-
-
-
-
 
 
     </section>
